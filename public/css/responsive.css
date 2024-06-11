@@ -1,0 +1,127 @@
+@media (max-width: 1024px) {
+    .bannerText {
+        top: 35%;
+    }
+
+    .counter-sec p {
+        font-size: 1.03rem;
+    }
+
+    .counter-sec h2 {
+        font-weight: 600;
+    }
+
+    .h1,
+    h1 {
+        font-size: 2rem;
+    }
+
+    .aboutus p {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .footerBox h5 a {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 991px) {
+    .topmenu {
+        display: none;
+    }
+
+    .bannerText {
+        position: static;
+        max-width: 100%;
+        width: 100%;
+        border-radius: 0;
+        padding: 1rem;
+        -webkit-transform: none;
+        transform: none;
+        background: #000000;
+        margin-top: -8px;
+    }
+
+    .footerAbout .section {
+        width: 100%;
+    }
+    .footerBox h5 a {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 767px) {
+    .blog-box-main
+    {
+        margin-bottom: 10px;
+    }
+    .footerBox h5 a {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 425px) {
+    .top_social {
+        justify-content: center;
+    }
+    .padding {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    html
+    {
+        font-size: 80%;
+    }
+    .bannerText .col-sm-3 {
+        border-right: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        padding: 6px;
+    }
+
+    .bannerText .col-sm-3:nth-last-child(1),
+    .bannerText .col-sm-3:nth-last-child(2) {
+        border-bottom: none;
+    }
+
+    .bannerText .col-sm-3:nth-last-child(3) {
+        border-right: none;
+    }
+
+    .animatable .col-md-4 {
+        padding: 0;
+    }
+
+    .count-area-content {
+        background: #f50202;
+        margin: 5px;
+        padding: 9px;
+        height: calc(100% - 10px);
+        display: flex;
+        width: calc(100% - 10px);
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 2px #fff;
+    }
+
+    .count-area-content h2 {
+        width: 100%;
+    }
+    .mapContainer .container-fluid
+    {
+        padding: 0;
+    }
+    .mapContainer iframe {
+        height: 250px;
+    }
+    .addressBox
+    {
+        margin-bottom: 10px;
+    }
+    .product-box section {
+        padding: 8px;
+    }
+    .footerBox h5 a {
+        font-size: 13px;
+    }
+}
